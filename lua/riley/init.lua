@@ -1,0 +1,8 @@
+require('riley/lspconfig')
+require('riley/telescope')
+require('riley/gitsigns')
+require('riley/treesitter')
+require('riley/nvimtree')
+require('riley/barbar')
+require('riley/leap')
+-- require('riley/lightline')
