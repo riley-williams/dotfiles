@@ -73,6 +73,8 @@ cmp.setup {
             behavior = cmp.ConfirmBehavior.Replace,
             select = true,
         },
+		['<C-k>'] = cmp.mapping.scroll_docs(-4),
+		['<C-j>'] = cmp.mapping.scroll_docs(4),
     },
     snippet = {
         expand = function(args)
