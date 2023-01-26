@@ -45,7 +45,7 @@ Plug 'ggandor/leap.nvim'
 Plug 'itchyny/lightline.vim'
 Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
 Plug 'nvim-tree/nvim-tree.lua'
-Plug 'romgrk/barbar.nvim'
+Plug 'nanozuki/tabby.nvim'
 
 call plug#end()
 
