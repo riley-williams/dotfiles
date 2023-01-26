@@ -14,6 +14,8 @@ set signcolumn=number
 
 " hide status, duplicate w/ lightline
 set noshowmode
+" something to do with terminal resizing
+set noequalalways
 
 call plug#begin('~/.config/nvim/plugged')
 
@@ -49,12 +51,9 @@ Plug 'nanozuki/tabby.nvim'
 
 call plug#end()
 
-lua require('config')
-
 set background=dark
 set termguicolors
 colorscheme tokyonight-storm
-
 
 let g:lightline = {
 \ 	'colorscheme': 'tokyonight',
