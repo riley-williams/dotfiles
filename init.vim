@@ -51,6 +51,8 @@ Plug 'nanozuki/tabby.nvim'
 
 call plug#end()
 
+lua require('config')
+
 set background=dark
 set termguicolors
 colorscheme tokyonight-storm
