@@ -49,7 +49,7 @@ Plug 'nanozuki/tabby.nvim'
 
 call plug#end()
 
-lua require('riley')
+lua require('config')
 
 set background=dark
 set termguicolors

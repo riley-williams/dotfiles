@@ -1,0 +1,8 @@
+require('config/lspconfig')
+require('config/telescope')
+require('config/gitsigns')
+require('config/treesitter')
+require('config/nvimtree')
+require('config/tabby')
+require('config/leap')
+-- require('config/lightline')
