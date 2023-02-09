@@ -17,6 +17,8 @@ set noshowmode
 " something to do with terminal resizing
 set noequalalways
 
+let mapleader = " "
+
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'nvim-lua/plenary.nvim'
@@ -30,6 +32,11 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'neovim/nvim-lspconfig'
 Plug 'tpope/vim-fugitive'
 Plug 'lewis6991/gitsigns.nvim'
+" Plug 'mfussenegger/nvim-dap'
+" Plug 'williamboman/mason.nvim'
+" Plug 'williamboman/mason-lspconfig.nvim'
+Plug 'neovim/nvim-lspconfig'
+" Plug 'WhoIsSethDaniel/mason-tool-installer.nvim'
 
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'
@@ -48,6 +55,9 @@ Plug 'itchyny/lightline.vim'
 Plug 'nvim-tree/nvim-web-devicons' " optional, for file icons
 Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nanozuki/tabby.nvim'
+
+" Other
+Plug 'Pocco81/auto-save.nvim'
 
 call plug#end()
 
