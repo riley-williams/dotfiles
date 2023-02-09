@@ -16,7 +16,7 @@ set signcolumn=number
 set noshowmode
 " something to do with terminal resizing
 set noequalalways
-
+set clipboard=unnamed
 let mapleader = " "
 
 call plug#begin('~/.config/nvim/plugged')
