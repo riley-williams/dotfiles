@@ -57,7 +57,7 @@ Plug 'nvim-tree/nvim-tree.lua'
 Plug 'nanozuki/tabby.nvim'
 
 " Other
-Plug 'Pocco81/auto-save.nvim'
+Plug 'pocco81/auto-save.nvim'
 
 call plug#end()
 
